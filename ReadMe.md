@@ -3,3 +3,5 @@
 A primitive viewer application for macOS 'sample'-files taken with the Sample command line tool or the Activity Viewer utility.
 
 You might find it handy, if you are dealing with samples files from customers frequently.
+
+[[https://raw.githubusercontent.com/iljaiwas/SampleViewer/master/Screenshot.png|alt=screenshot]]

@@ -111,7 +111,7 @@
                         </scroller>
                     </scrollView>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1Op-Ei-HwV">
-                        <rect key="frame" x="633" y="379" width="19" height="14"/>
+                        <rect key="frame" x="633" y="379" width="230" height="14"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="14" id="KTd-wd-7Qh"/>
                         </constraints>
@@ -174,6 +174,7 @@
                 <constraints>
                     <constraint firstItem="IkV-ab-8v3" firstAttribute="top" secondItem="gIp-Ho-8D9" secondAttribute="top" constant="-1" id="4TR-Lo-g3H"/>
                     <constraint firstItem="FP2-pK-0KA" firstAttribute="top" secondItem="1Op-Ei-HwV" secondAttribute="bottom" constant="8" id="6nu-Fi-6tw"/>
+                    <constraint firstAttribute="trailing" secondItem="1Op-Ei-HwV" secondAttribute="trailing" constant="3" id="7Yi-iV-k6b"/>
                     <constraint firstItem="1Op-Ei-HwV" firstAttribute="top" secondItem="gIp-Ho-8D9" secondAttribute="top" constant="20" id="8hs-ac-eg1"/>
                     <constraint firstItem="1Op-Ei-HwV" firstAttribute="centerY" secondItem="hXi-p5-MDk" secondAttribute="centerY" id="Cpy-Ft-9gY"/>
                     <constraint firstItem="D2O-Ms-KAF" firstAttribute="trailing" secondItem="XhH-z2-8as" secondAttribute="trailing" id="Enu-0F-hZD"/>
