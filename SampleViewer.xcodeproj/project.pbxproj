@@ -14,6 +14,11 @@
 		4DF836851E27942F00B1552D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF836841E27942F00B1552D /* Assets.xcassets */; };
 		4DF836881E27942F00B1552D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DF836861E27942F00B1552D /* MainMenu.xib */; };
 		4DF836931E27942F00B1552D /* SampleViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF836921E27942F00B1552D /* SampleViewerTests.m */; };
+		4DF8369F1E27961300B1552D /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF8369E1E27961300B1552D /* Entry.m */; };
+		4DF836A21E27969600B1552D /* LineParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF836A11E27969600B1552D /* LineParser.m */; };
+		4DF836A51E27974900B1552D /* Thread.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF836A41E27974900B1552D /* Thread.m */; };
+		4DF836A91E27A1D500B1552D /* GenericEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF836A81E27A1D500B1552D /* GenericEntry.m */; };
+		4DF836AC1E27C19000B1552D /* SampleWindowUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF836AB1E27C19000B1552D /* SampleWindowUIController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,16 @@
 		4DF8368E1E27942F00B1552D /* SampleViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF836921E27942F00B1552D /* SampleViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewerTests.m; sourceTree = "<group>"; };
 		4DF836941E27942F00B1552D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF8369D1E27961300B1552D /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		4DF8369E1E27961300B1552D /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
+		4DF836A01E27969600B1552D /* LineParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineParser.h; sourceTree = "<group>"; };
+		4DF836A11E27969600B1552D /* LineParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineParser.m; sourceTree = "<group>"; };
+		4DF836A31E27974900B1552D /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		4DF836A41E27974900B1552D /* Thread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thread.m; sourceTree = "<group>"; };
+		4DF836A71E27A1D500B1552D /* GenericEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericEntry.h; path = ../GenericEntry.h; sourceTree = "<group>"; };
+		4DF836A81E27A1D500B1552D /* GenericEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenericEntry.m; path = ../GenericEntry.m; sourceTree = "<group>"; };
+		4DF836AA1E27C19000B1552D /* SampleWindowUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleWindowUIController.h; sourceTree = "<group>"; };
+		4DF836AB1E27C19000B1552D /* SampleWindowUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleWindowUIController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +105,16 @@
 				4DF836861E27942F00B1552D /* MainMenu.xib */,
 				4DF836891E27942F00B1552D /* Info.plist */,
 				4DF8367B1E27942F00B1552D /* Supporting Files */,
+				4DF836A01E27969600B1552D /* LineParser.h */,
+				4DF836A11E27969600B1552D /* LineParser.m */,
+				4DF836A71E27A1D500B1552D /* GenericEntry.h */,
+				4DF836A81E27A1D500B1552D /* GenericEntry.m */,
+				4DF8369D1E27961300B1552D /* Entry.h */,
+				4DF8369E1E27961300B1552D /* Entry.m */,
+				4DF836A31E27974900B1552D /* Thread.h */,
+				4DF836A41E27974900B1552D /* Thread.m */,
+				4DF836AA1E27C19000B1552D /* SampleWindowUIController.h */,
+				4DF836AB1E27C19000B1552D /* SampleWindowUIController.m */,
 			);
 			path = SampleViewer;
 			sourceTree = "<group>";
@@ -211,9 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF836A91E27A1D500B1552D /* GenericEntry.m in Sources */,
+				4DF836AC1E27C19000B1552D /* SampleWindowUIController.m in Sources */,
+				4DF8369F1E27961300B1552D /* Entry.m in Sources */,
 				4DF836801E27942F00B1552D /* Document.m in Sources */,
 				4DF8367D1E27942F00B1552D /* main.m in Sources */,
 				4DF8367A1E27942E00B1552D /* AppDelegate.m in Sources */,
+				4DF836A21E27969600B1552D /* LineParser.m in Sources */,
+				4DF836A51E27974900B1552D /* Thread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
