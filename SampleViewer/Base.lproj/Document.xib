@@ -111,11 +111,11 @@
                         </scroller>
                     </scrollView>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1Op-Ei-HwV">
-                        <rect key="frame" x="674" y="379" width="19" height="14"/>
+                        <rect key="frame" x="633" y="379" width="19" height="14"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="14" id="KTd-wd-7Qh"/>
                         </constraints>
-                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="&lt;&gt;" id="jMd-Lg-qFh">
+                        <textFieldCell key="cell" controlSize="small" lineBreakMode="truncatingMiddle" selectable="YES" sendsActionOnEndEditing="YES" alignment="left" title="&lt;&gt;" id="jMd-Lg-qFh">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -125,7 +125,7 @@
                         </connections>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FP2-pK-0KA">
-                        <rect key="frame" x="674" y="357" width="19" height="14"/>
+                        <rect key="frame" x="633" y="357" width="19" height="14"/>
                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="&lt;&gt;" id="wQu-xr-608">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -136,7 +136,7 @@
                         </connections>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MBN-9I-rxG">
-                        <rect key="frame" x="674" y="335" width="19" height="14"/>
+                        <rect key="frame" x="633" y="335" width="19" height="14"/>
                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="&lt;&gt;" id="PmY-R4-Ebu">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -147,23 +147,23 @@
                         </connections>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XhH-z2-8as">
-                        <rect key="frame" x="539" y="357" width="131" height="14"/>
-                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Percentage in Callstack:" id="doo-6h-8pV">
+                        <rect key="frame" x="549" y="357" width="80" height="14"/>
+                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="% in Callstack:" id="doo-6h-8pV">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="D2O-Ms-KAF">
-                        <rect key="frame" x="550" y="335" width="120" height="14"/>
-                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Percentage in Thread:" id="VpV-FU-qb4">
+                        <rect key="frame" x="560" y="335" width="69" height="14"/>
+                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="% in Thread:" id="VpV-FU-qb4">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hXi-p5-MDk">
-                        <rect key="frame" x="623" y="379" width="47" height="14"/>
+                        <rect key="frame" x="582" y="379" width="47" height="14"/>
                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Symbol:" id="Q2Y-hT-Vg8">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -184,7 +184,7 @@
                     <constraint firstItem="MBN-9I-rxG" firstAttribute="centerY" secondItem="D2O-Ms-KAF" secondAttribute="centerY" id="puM-ul-2jb"/>
                     <constraint firstAttribute="bottom" secondItem="IkV-ab-8v3" secondAttribute="bottom" constant="-1" id="qJG-S7-j7b"/>
                     <constraint firstItem="FP2-pK-0KA" firstAttribute="centerY" secondItem="XhH-z2-8as" secondAttribute="centerY" id="qhL-TJ-fHt"/>
-                    <constraint firstItem="1Op-Ei-HwV" firstAttribute="leading" secondItem="IkV-ab-8v3" secondAttribute="trailing" constant="141" id="tXh-pE-zs1"/>
+                    <constraint firstItem="1Op-Ei-HwV" firstAttribute="leading" secondItem="IkV-ab-8v3" secondAttribute="trailing" constant="100" id="tXh-pE-zs1"/>
                     <constraint firstAttribute="trailing" secondItem="IkV-ab-8v3" secondAttribute="trailing" constant="329" id="ur2-Kj-NvS"/>
                     <constraint firstItem="IkV-ab-8v3" firstAttribute="leading" secondItem="gIp-Ho-8D9" secondAttribute="leading" constant="-1" id="wAf-tb-IpV"/>
                     <constraint firstItem="MBN-9I-rxG" firstAttribute="leading" secondItem="1Op-Ei-HwV" secondAttribute="leading" id="yPL-v0-SLS"/>
