@@ -4,4 +4,4 @@ A primitive viewer application for macOS 'sample'-files taken with the Sample co
 
 You might find it handy, if you are dealing with samples files from customers frequently.
 
-[[https://raw.githubusercontent.com/iljaiwas/SampleViewer/master/Screenshot.png|alt=screenshot]]
+![Screenshot](Screenshot.png?raw=true "Screenshot")
