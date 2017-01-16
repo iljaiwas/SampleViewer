@@ -66,4 +66,19 @@
 	return total;
 }
 
+- (NSSet*) callersForSymbol:(NSString*) inSymbol
+{
+	NSMutableSet *callers = [NSMutableSet set];
+	
+	for (Entry *entry in self.subEntries)
+	{
+		if ([entry.name isEqualToString:inSymbol])
+		{
+			[callers addObject:self];
+		}
+		[callers unionSet:[entry callersForSymbol:inSymbol]];
+	}
+	return [NSSet setWithSet:callers];
+}
+
 @end

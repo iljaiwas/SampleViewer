@@ -23,5 +23,6 @@
 
 
 - (NSInteger) totalSamplesForSymbol:(NSString*)inName;
+- (NSSet*) callersForSymbol:(NSString*) inSymbol;
 
 @end

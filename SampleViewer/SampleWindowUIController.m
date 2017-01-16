@@ -16,6 +16,8 @@
 @property (weak) IBOutlet NSTreeController	*treeController;
 @property (weak) IBOutlet NSOutlineView		*outlineView;
 
+@property NSArray *callersForSelectedEntry;
+
 
 @property Entry *selectedEntry;
 
@@ -30,10 +32,12 @@
 	if ([selectedObject isKindOfClass:[Entry class]])
 	{
 		self.selectedEntry = selectedObject;
+		self.callersForSelectedEntry = [[self.selectedEntry.thread callersForSymbol:self.selectedEntry.name] allObjects];
 	}
 	else
 	{
 		self.selectedEntry = nil;
+		self.callersForSelectedEntry = nil;
 	}
 }
 
